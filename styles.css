@@ -1,0 +1,127 @@
+/* Reset y Fuentes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+header, main, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 1px solid #ff00a0;
+    margin-bottom: 40px;
+}
+
+.logo h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+    background: linear-gradient(90deg, #ff00a0, #9400d3, #ff1493);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.eslogan {
+    color: #ccc;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff00a0;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    background: linear-gradient(90deg, #ff00a0, #ff1493);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff00a0, #9400d3);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #ff00a0;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .logo h1 {
+        font-size: 1.8em;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 1.8em;
+    }
+}
